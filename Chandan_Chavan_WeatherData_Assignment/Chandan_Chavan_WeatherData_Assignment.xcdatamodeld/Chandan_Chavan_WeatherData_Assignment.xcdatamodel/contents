@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14315.18" systemVersion="18C54" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <entity name="Country" representedClassName="Country" syncable="YES" codeGenerationType="class">
-        <attribute name="rainfall" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="tmax" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="tmin" optional="YES" attributeType="String" syncable="YES"/>
-    </entity>
+    <entity name="Countryes" representedClassName="Countryes" syncable="YES" codeGenerationType="class"/>
+    <entity name="Entity" representedClassName="Entity" syncable="YES" codeGenerationType="class"/>
     <elements>
-        <element name="Country" positionX="-63" positionY="-18" width="128" height="90"/>
+        <element name="Countryes" positionX="-63" positionY="-45" width="128" height="45"/>
+        <element name="Entity" positionX="-54" positionY="-36" width="128" height="45"/>
     </elements>
 </model>

@@ -46,40 +46,5 @@ class ViewController: UIViewController {
         }
         
     }
-    /*   func  startDownloadWeatherData(country:String) -> Void {
-     queue = OperationQueue()
-     
-     
-     let operationMax = BlockOperation {
-     self.getWeatherDataFromServer(metrics: "Tmax", location: country, completion: { (respose, error) in
-     print("ResponseDataTmax: \(respose) for country \(country)")
-     })
-     }
-     
-     operationMax.completionBlock = {print("Operation max completed")}
-     queue.addOperation(operationMax)
-     
-     let operationMin = BlockOperation {
-     
-     self.getWeatherDataFromServer(metrics: "Tmin", location: country, completion: { (respose, error) in
-     print("ResponseDataTmin: \(respose)for country \(country)")
-     })
-     }
-     operationMin.addDependency(operationMax)
-     operationMin.completionBlock = {print("Operation min completed")}
-     queue.addOperation(operationMin)
-     
-     let operationRainfall = BlockOperation {
-     
-     self.getWeatherDataFromServer(metrics: "Rainfall", location: country, completion: { (respose, error) in
-     print("ResponseDataRainfall: \(respose)for country \(country)")
-     })
-     }
-     operationRainfall.addDependency(operationMin)
-     operationRainfall.completionBlock = {print("Operation Rainfall completed")}
-     queue.addOperation(operationRainfall)
-     
-     
-     }*/
+    
 }
-
